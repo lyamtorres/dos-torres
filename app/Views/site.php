@@ -1,19 +1,16 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
+  	<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Dos Torres Taekwon-Do</title>
-  </head>
+	<link href="<?=base_url('Styles/app.css')?>" rel="stylesheet">
+	<title>Dos Torres Taekwon-Do</title>
+  	</head>
   <header>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">Dos Torres, Academia de Taekwon-Do ITF</a>
+			<a class="navbar-brand" href="#"><img src="<?=base_url('Images/logo.jpeg')?>" height=128px; alt=""></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -38,12 +35,32 @@
   </header>	
 	<body>
 		<section class="hero">
-			<div class="container">
-				<h1>Dos Torres, Academia de Taekwon-Do</h1>
-				<p>Escuela De Artes Marciales en Ciudad Sandino</p>
-				<p>Abrimos mañana a las 17:00</p>
-				<img src="<?=base_url('Images/hero.jpg')?>">
-			<div>
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 0"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="<?=base_url('Images/carousel-one.jpeg')?>" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="<?=base_url('Images/carousel-two.jpeg')?>" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="<?=base_url('Images/carousel-three.jpg')?>" class="d-block w-100" alt="...">
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
 	  	</section>
 		<section class="news">
 			<div class="container">
