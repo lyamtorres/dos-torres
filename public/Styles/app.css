@@ -19,6 +19,12 @@ h1 {
     text-shadow: 3px 3px 5px #333;    
 }
 
+h2 {
+    margin-top: 2rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 2.75rem;
+}
+
 p {
     font-size: 1.25rem;
     font-weight: 400;
@@ -88,4 +94,15 @@ p {
 
 .hero .container, .content {
     height: inherit;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about p {
+    color: #000;
+    text-shadow: none;
 }

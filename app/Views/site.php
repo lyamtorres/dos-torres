@@ -44,27 +44,9 @@
 				</div>
 			</div>
 	  	</section>
-		<section class="news">
-			<div class="container">
-				<h2>Novedades</h2>
-				<div class="card text-center">
-					<div class="card-header">
-						
-					</div>
-					<div class="card-body">
-						<h5 class="card-title">Anuncio importante</h5>
-						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
-					</div>
-					<div class="card-footer text-muted">
-						
-					</div>
-				</div>
-			<div>
-	  	</section>
 		<section class="about">
 			<div class="container">
-				<h2>Quiénes somos</h2>
+				<h2>¿Quiénes somos?</h2>
 				<p>Academia de Taekwon-Do, arte marcial de origen coreano, adscrito a la original International Taekwon-Do Federation, miembro del Concilio Panamericano de Taekwon-Do y de la Asociación Nicaragüense de Taekwon-Do ITF.</p>
 			<div>
 	  	</section>
