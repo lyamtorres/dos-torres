@@ -25,6 +25,10 @@ h2 {
     font-size: 2.75rem;
 }
 
+h3 {
+    margin-top: 2rem;
+}
+
 hr {
     margin-bottom: 2rem;
     width: 10rem;
@@ -32,13 +36,17 @@ hr {
     opacity: initial;
 }
 
-p {
+.hero p {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: .5rem;
     color: #ffffff;
     text-shadow: 2px 2px #000000;
     text-shadow: 3px 3px 5px #333;    
+}
+
+iframe {
+    width: 100%;
 }
 
 .navbar {
@@ -130,4 +138,8 @@ p {
 
 .row {
     margin-bottom: 1.75rem;
+}
+
+.contact p {
+    margin-top: 1rem;
 }

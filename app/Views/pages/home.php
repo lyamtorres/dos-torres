@@ -40,12 +40,43 @@
 	  	</section>
 		  <section class="contact">
 			<div class="container">
-				<h2>Comunícate con nosotros</h2>
-				<hr>
-				<h3>Contáctanos</h3>
-				<h3>Horario de atención</h3>
-				<h3>Nuestra ubicación</h3>
+				<div class="d-flex flex-column align-items-center">
+					<h2>Comunícate con nosotros</h2>
+					<hr>
+				</div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.3513185245156!2d-86.35415318518633!3d12.156468091394286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7151e9a4f9bfa1%3A0xc93f207dd225359a!2sDos%20Torres%2C%20Academia%20de%20Taekwon-Do%20ITF!5e0!3m2!1ses-419!2sfr!4v1649002557557!5m2!1ses-419!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<div class="row">
+					<div class="col">
+						<div class="d-flex flex-column align-items-center">
+							<h3>Contacto</h3>
+							<button type="button" class="btn btn-primary">Llamar ahora</button>
+							<p>88897651</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column align-items-center">
+							<h3>Dirección</h3>	
+							<button type="button" class="btn btn-primary">Cómo llegar</button>
+							<p>Colonia Villa Soberana, Manzana J, Lote #5.<br>
+								Ciudad Sandino<br>
+								Nicaragua</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="d-flex flex-column align-items-center">
+							<h3>Horarios de atención</h3>
+						<div>
+					<ul>
+						<li>Lunes: 17:00 - 18:30</li>
+						<li>Martes: cerrado</li>
+						<li>Miércoles: 17:00 - 18:30</li>
+						<li>Jueves: cerrado</li>
+						<li>Viernes: 17:00 - 18:30</li>
+						<li>Sábado: cerrado</li>
+						<li>Domingo: cerrado</li>
+					</ul>
+					</div>
+				</div>
 			<div>
 	  	</section>
 		  
@@ -53,7 +84,6 @@
 		<p>© Dos Torres 2022<br></p>
 	</footer>
     
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
